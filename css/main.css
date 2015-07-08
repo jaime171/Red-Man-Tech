@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    width: 990px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -495px;
+}
+
+
+.mortage-section{
+    background: url(../img/mortage-background.jpg);
+    width: 647px;
+    height: 337px;
+    margin-top: 80px;
+    position: absolute;
+  
+}
+
+.mortage-section>h2{
+    color: #22314d;
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    padding-left: 45px;
+    padding-top: 18px;
+    letter-spacing: 1px;
+}
+
+.redform{  
+    padding: 0px !important; 
+    box-shadow: none !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.redform form {
+    padding: 0px !important;
+    border: none !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+
+
+/*  ================
+    INPUTS 
+    =========
+*/
+
+.redform input,
+.redform .add-on,
+.redform textarea,
+.redform button {
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+
+.form-only input{
+    width: 124px !important;
+    margin-left: 90px !important;
+    margin-top: -53px !important;
+    height: 26.5px !important;
+}
+
+.move-first{
+    margin-top: 23px !important;
+    margin-left: 10px !important;
+}
+
+.move-left{
+   /* background-color: red !important;*/
+    margin-left: 250px !important;
+    margin-top: -63px !important;
+}
+
+.move-top{
+    margin-top: -25px !important;
+}
+
+/*  ================
+    REQUIRE FIELD 
+    =========
+*/
+
+div.required.legend:before,
+.redform .required label:after{
+    color: white !important;
+} 
+
+/*  ================
+    LABELS 
+    =========
+*/
+
+
+.type-textInput label{
+    background-color: #1a3d63 !important;
+    padding: 5px;
+    color: white;
+    width: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+
+
+
+
+/*  ================
+    TEXTAREA 
+    =========
+*/
+
+.type-textarea{
+    margin-left: 10px !important;
+    margin-top: -28px !important;
+    height: 70px !important;
+    width: 470px;
+}
+
+
+
+
+
+/*  ================
+    CHECKBOX 
+    =========
+*/
+
+
+.checkbox{
+  margin-left: 10px !important; 
+  margin-top: -3px !important;
+}
+
+.checkbox p{
+    color: #1a3d63 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt !important; 
+}
+
+.checkbox input{
+    height: 16px !important;
+}
+
+textarea{
+    font-family: 'Lato', sans-serif;
+    padding-left: 5px !important;
+    padding-top: 5px !important;
+}
+
+
+
+
+
+/*  ================
+    CAPTCHA DIV
+    =========
+*/
+
+.captcha{
+    background-color: white;
+    height: 26px;
+    width: 67px;
+    margin-top: -43px;
+    margin-left: 10px;
+}
+
+
+.input-captcha{
+    margin-top: -27px;
+}
+
+.input-captcha p{
+    color: white;
+    opacity: .5;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    margin-left: 98px;
+    margin-top: 2px;
+    font-size: 11pt;
+}
+
+.tp-widget .input-captcha input{
+    width: 115px;
+    height: 24px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+/*  ================
+    BUTTONS 
+    =========
+*/
+.redform button,
+.redform .type-navigation input.btn {
+    height: 42px !important;
+    width: 143px !important;
+    background-image: none !important;
+    background-color: #f99407 !important;
+    border: 1px solid #f99407 !important;
+    padding: 1px 15px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    color: white;
+}
+
+
+.redform button:active,
+.redform .type-navigation input.btn:active {
+    background-image: none;
+    background-color: #f99407 !important;
+    outline: none;
+    color: white !important;
+}
+
+.redform .type-submit button {
+  min-width: 145px !important;
+  font-size: 100%;
+  letter-spacing: 1px;  margin-top: 3px !important;
+}
+
+.redform .type-submit button:active {
+  min-width: 145px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ================
+    VIP SECTION
+    =========
+*/
+
+.vip-section{
+    background: blue;
+    height: 337px;
+    width: 308px;
+    right: 10px;
+    margin-top: 80px;
+    position: absolute;
+}

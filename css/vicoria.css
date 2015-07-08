@@ -1,0 +1,719 @@
+/*** *********** RESPONSIVE FORM STYLES ***/
+.redform {
+  background-color: rgba(240,240,240,0.5);
+  padding: 10px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+}
+.redform form {
+  background-color: #FFF;
+  padding: 20px;
+  border: 1px solid #ccc;
+  color: #000;
+}
+.redform,
+.redform form {
+  border-radius: 5px;
+}
+.redform legend {
+  font-size: 130%;
+  font-weight: bold;
+}
+.redform .form-group {
+  overflow: hidden;
+  margin: 5px 0px;
+  padding: 5px;
+}
+.redform .help-block {
+  margin-top: 1px;
+  margin-bottom: 0px;
+  font-size: 80%;
+  font-style: italic;
+}
+.redform .type-captcha .control-label {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: auto;
+  float: none;
+  vertical-align: top;
+}
+.redform .type-captcha img {
+  height: 22px;
+  vertical-align: top;
+}
+
+/*** BUTTONS ***/
+.redform button,
+.redform .type-navigation input.btn {
+  height: 27px;
+  background-color: #EEE;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgba(0,0,0,0)),
+    color-stop(1, rgba(0,0,0,0.2))
+  );
+  background-image: -o-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+  background-image: -ms-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+  border: 1px solid #BBB;
+  padding: 1px 15px;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2), 0px 1px 2px rgba(0, 0, 0, 0.05);
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75);
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.redform button:hover,
+.redform .type-navigation input.btn:hover {
+  background-image: none;
+  background-color: #EEE;
+}
+.redform button:active,
+.redform .type-navigation input.btn:active {
+  background-image: none;
+  background-color: #DDD;
+  box-shadow: inset 0px 0px 3px rgba(0,0,0,0.3);
+  outline: none;
+}
+.redform .type-submit button {
+  min-width: 215px;
+  font-size: 100%;
+}
+.redform .type-navigation {
+  height: 27px;
+  margin-top: 25px;
+  position: relative;
+}
+.redform .type-navigation .navigation {
+  font-size: 80%;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+}
+.redform .type-navigation .navigation-next {
+  right: 0;
+}
+.redform .type-navigation .navigation-prev {
+  left: 0;
+}
+.redform .type-submit.type-navigation {
+  padding-bottom: 30px;
+}
+.redform .type-submit.type-navigation .navigation {
+  top: auto; bottom: 0;
+}
+
+
+/*** REQUIRED FIELD ***/
+div.required.legend:before,
+.redform .required label:after {
+  content: '*';
+  color: #900;
+  font-size: 80%;
+  position: relative;
+  top: -3px;
+}
+.redform .required label.radio:after,
+.redform .required label.checkbox:after {
+  content: '';
+}
+div.required.legend {
+  margin-bottom: 5px;
+  text-align: right;
+}
+div.required.legend:before {
+  margin-right: 3px;
+}
+
+/*** INPUT TYPES ***/
+.redform input,
+.redform select,
+.redform textarea,
+.redform label.radio,
+.redform label.checkbox,
+.redform button {
+  font-size: 14px;
+}
+.redform input,
+.redform .add-on,
+.redform textarea,
+.redform button {
+  border-radius: 5px;
+}
+.redform input,
+.redform textarea {
+  margin: 0px;
+  padding: 1px 3px;
+  border: 1px solid #CCC;
+  line-height: 22px;
+  vertical-align: middle;
+}
+.redform .type-radioMultiple input,
+.redform .type-checkboxMultiple input {
+  vertical-align: top;
+}
+.redform .type-emailoptin .checkbox input  {
+  display: inline-block;
+  margin-right: 4px;
+}
+.redform .type-captcha input,
+.redform .type-textInput input,
+.redform textarea {
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
+}
+.redform input {
+  height: 22px;
+  background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.64, rgb(255, 255, 255)),
+  color-stop(1, rgb(242, 242, 242))
+  );
+  background-image: -o-linear-gradient(top, rgb(255, 255, 255) 64%, rgb(242, 242, 242) 100%);
+  background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 64%, rgb(242, 242, 242) 100%);
+  background-image: -webkit-linear-gradient(top, rgb(255, 255, 255) 64%, rgb(242, 242, 242) 100%);
+  background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 64%, rgb(242, 242, 242) 100%);
+  background-image: linear-gradient(to top, rgb(255, 255, 255) 64%, rgb(242, 242, 242) 100%);
+}
+.redform .type-fileUpload input {
+  background-image: none;
+  border: 0px;
+  box-shadow: none;
+}
+.redform select {
+  height: 27px;
+  margin: 0px;
+  padding: 0px;
+}
+.redform textarea {
+  width: 96.5%;
+  resize: none;
+}
+.redform .type-textPrepend input {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.redform .type-textPrepend .add-on {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 22px;
+  margin-right: -5px;
+  padding: 1px 3px;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 13px;
+  text-shadow: 0px 1px 0px #FFF;
+  vertical-align: top;
+  line-height: 22px;
+}
+.redform .radio,
+.redform .checkbox {
+  display: block;
+}
+.redform .input-file {
+  line-height: 100%;
+}
+.redform .type-textInput input:focus,
+.redform .type-textPrepend input:focus,
+.redform .type-captcha input:focus,
+.redform select:focus,
+.redform textarea:focus {
+  outline: none;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 3px #000;
+}
+.redform .preset-section,
+.redform .signup-header {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.redform .preset-section .preset-header {
+  margin-top: 20px;
+  padding: 0;
+}
+.redform .type-checkboxConsent {
+  line-height: 100%;
+}
+.redform .type-checkboxConsent input {
+  float: left;
+  height: auto;
+}
+.redform .type-checkboxConsent p {
+  color: #000;
+  margin-left: 16px;
+  line-height: normal !important;
+  position: relative;
+}
+
+/*** HORIZONTAL RADIO/CHECKBOX CONFIG ***/
+.redform .radio-horizontal div.radio,
+.redform .checkbox-horizontal div.checkbox {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.redform .radio-horizontal-columns-2 div.radio,
+.redform .checkbox-horizontal-columns-2 div.checkbox {
+  width: 48%;
+  margin-right: 1%;
+}
+.redform .radio-horizontal-columns-3 div.radio,
+.redform .checkbox-horizontal-columns-3 div.checkbox {
+  width: 31%;
+  margin-right: 1%;
+}
+.redform .radio-horizontal-columns-4 div.radio,
+.redform .checkbox-horizontal-columns-4 div.checkbox {
+  width: 23%;
+  margin-right: 1%;
+}
+.redform .radio-horizontal-columns-5 div.radio,
+.redform .checkbox-horizontal-columns-5 div.checkbox {
+  width: 18%;
+  margin-right: 1%;
+}
+
+/*** EMAIL OPTIN CONFIG ***/
+.redform .emailoptin 
+
+/*** ERROR STATE ***/
+.redform .form-group.error {
+  background-color: #fdd4d4;
+  border: 1px solid;
+  border-top-color: rgba(255,255,255,0.5);
+  border-left-color: rgba(255,255,255,0.5);
+  border-bottom-color: rgba(0,0,0,0.5);
+  border-right-color: rgba(0,0,0,0.5);
+  color: #900;
+}
+.redform .form-group.error label {
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*** INPUT SIZE VARIATIONS ***/
+.redform .type-textInput .input-xlarge {
+  width: 96.5%;
+}
+.redform .type-selectSingle .input-xlarge {
+  width: 98%;
+}
+.redform .type-textarea .input-xlarge {
+  height: 250px;
+}
+.redform .type-textInput .input-large,
+.redform .type-selectSingle .input-large {
+  width: 70%;
+}
+.redform .type-textarea .input-large {
+  height: 200px;
+}
+.redform .type-textInput .input-medium,
+.redform .type-selectSingle .input-medium {
+  width: 50%;
+}
+.redform .type-textarea .input-medium {
+  height: 150px;
+}
+.redform .type-textInput .input-small,
+.redform .type-selectSingle .input-small {
+  width: 30%;
+}
+.redform .type-textarea .input-small {
+  height: 100px;
+}
+
+/*** LABELS BESIDE INPUTS ***/
+.labeltype-beside.redform label,
+.labeltype-beside.redform .type-captcha .control-label {
+  width: 25%;
+  float: left;
+  padding-right: 10px;
+  text-align: right;
+  line-height: 28px;
+}
+.labeltype-beside.redform label.radio,
+.labeltype-beside.redform label.checkbox {
+  width: auto;
+  float: none;
+  padding: 0;
+  text-align: left;
+  line-height: 22px;
+}
+.labeltype-beside.redform .type-checkboxMultiple .form-input {
+  margin-top: 3px;
+}
+.labeltype-beside.redform .form-input {
+  width: 71%;
+  float: right;
+}
+.labeltype-beside.redform .help-block {
+  width: 71%;
+  float: right;
+}
+.labeltype-beside.redform .type-submit button {
+  margin-left: 28.2%;
+}
+
+
+/*** LABELS ABOVE INPUTS ***/
+.labeltype-above.redform label {
+  display: block;
+  margin-bottom: 2px;
+}
+.labeltype-above.redform .type-radioMultiple .controls,
+.labeltype-above.redform .type-checkboxMultiple .controls {
+  margin-left: 2px;
+}
+.labeltype-above.redform .type-submit button {
+  display: block;
+  margin: 0px auto;
+}
+
+/*** MEMBERSHIP SIGN UP BASIC ***/
+.redform .hide-benefits .type-textInput input {
+  width: 200px;
+}
+.labeltype-beside.redform .hide-benefits .type-textInput {
+  margin: 10px 0;
+  overflow: hidden;
+}
+.labeltype-above.redform .hide-benefits .type-textInput {
+  display: inline-block;
+  margin: 5px 0;
+  vertical-align: top;
+}
+.labeltype-above.redform .hide-benefits .preset-password1 {
+  margin-right: 1.5%;
+}
+
+/*** MEMBERSHIP SIGN UP WITH BENEFITS ***/
+.redform .show-benefits .type-textInput,
+.redform .show-benefits .type-checkboxMultiple {
+  margin: 5px 0;
+}
+.redform .show-benefits .membership-benefits p {
+  font-size: 14px;
+}
+.redform .show-benefits .benefits-header {
+  margin-top: 0; padding-top: 0;
+}
+.redform .show-benefits .signup-header {
+  margin-bottom: 10px;
+}
+.redform .show-benefits .benefit-header {
+  font-weight: bold;
+}
+@media (min-width: 750px) {
+  .redform .show-benefits.required-signup .preset-signupInputs {
+    width: 30%;
+    float: left;
+  }
+  .redform .show-benefits.required-signup .type-textInput input {
+    width: 96%;
+  }
+  .redform .show-benefits.required-signup .membership-benefits {
+    width: 68%;
+    float: right;
+  }
+  .labeltype-beside.redform .show-benefits.required-signup .type-textInput label {
+    display: block;
+    width: auto;
+    float: none;
+    margin-bottom: 2px;
+    padding-right: 0;
+    text-align: left;
+    line-height: 100%;
+  }
+  .labeltype-beside.redform .show-benefits.required-signup .form-input {
+    display: block;
+    width: auto;
+    float: none;
+  }
+  .labeltype-beside.redform .show-benefits.required-signup .type-textInput {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 749px) {
+  .labeltype-above.redform .show-benefits.required-signup .type-textInput {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .labeltype-above.redform .show-benefits.required-signup .preset-password1 {
+    margin-right: 1.5%;
+  }
+  .labeltype-beside.redform .show-benefits.required-signup .type-textInput {
+    padding: 2px 0;
+    margin: 8px 0;
+    overflow: hidden;
+  }
+  .redform .show-benefits.required-signup .type-textInput input {
+    width: 200px;
+  }
+  .redform .show-benefits.required-signup .membership-benefits {
+    margin-top: 20px;
+    clear: both;
+  }
+}
+
+/*** MEMBERSHIP SIGN UP OPTIONAL WITH BENEFITS ***/
+.labeltype-beside.redform .show-benefits.optional-signup .form-input {
+  width: 71%;
+  float: right;
+}
+.labeltype-beside.redform .show-benefits.optional-signup .type-textInput,
+.labeltype-beside.redform .show-benefits.optional-signup .type-checkboxMultiple {
+  padding: 2px 0;
+  margin: 8px 0;
+  overflow: hidden;
+}
+.labeltype-beside.redform .show-benefits.optional-signup .membership-benefits {
+  width: 71%;
+  float: right;
+  margin-top: 0 !important;
+  overflow: hidden;
+}
+.labeltype-above.redform .show-benefits.optional-signup .type-textInput {
+  display: inline-block;
+  vertical-align: top;
+}
+.labeltype-above.redform .show-benefits.optional-signup .preset-password1 {
+  margin-right: 1.5%;
+}
+.redform .show-benefits.optional-signup .type-textInput input {
+  width: 200px;
+}
+.redform .form-group.type-signup-agree {
+  line-height: 100%;
+}
+.redform .form-group.type-signup-agree input {
+  height: auto;
+  line-height: 100%;
+}
+.redform .show-benefits.optional-signup .type-signup-agree input {
+  height: auto;
+}
+
+/*** COMPACT PRESET SETTINGS ***/
+.labeltype-above .preset-fullName.compact-preset,
+.labeltype-above .preset-address.compact-preset {
+  overflow: hidden;
+}
+.labeltype-above .preset-fullName.compact-preset .form-group {
+  float: left;
+  vertical-align: top;
+}
+.labeltype-above .preset-fullName.compact-preset .preset-firstName {
+  margin-right: 2%;
+  width: 40%;
+}
+.labeltype-above .preset-fullName.compact-preset .preset-lastName {
+  width: 54.3%;
+}
+.labeltype-above .preset-address.compact-preset .preset-streetAddress {
+  margin-bottom: 0;
+}
+.labeltype-above .preset-address.compact-preset .preset-city,
+.labeltype-above .preset-address.compact-preset .preset-province,
+.labeltype-above .preset-address.compact-preset .preset-international,
+.labeltype-above .preset-address.compact-preset .preset-postalCode {
+  float: left;
+  vertical-align: top;
+}
+.labeltype-above .preset-address.compact-preset .preset-postalCode input.input-small {
+  width: 96%;
+}
+@media (min-width: 750px) {
+  .labeltype-above .preset-address.compact-preset .preset-city,
+  .labeltype-above .preset-address.compact-preset .preset-province,
+  .labeltype-above .preset-address.compact-preset .preset-international {
+    width: 24%;
+    margin-right: 2%;
+    margin-top: 0;
+  }
+  .labeltype-above .preset-address.compact-preset .preset-postalCode {
+    width: 15%;
+    margin-top: 0;
+  }
+}
+@media (max-width: 749px) {
+  .labeltype-above .preset-address.compact-preset .preset-city,
+  .labeltype-above .preset-address.compact-preset .preset-province,
+  .labeltype-above .preset-address.compact-preset .preset-international {
+    width: 46%;
+    margin-right: 2%;
+  }
+  .labeltype-above .preset-address.compact-preset .preset-postalCode {
+    width: 46%;
+  }
+  .labeltype-above .preset-address.compact-preset .preset-city,
+  .labeltype-above .preset-address.compact-preset .preset-province {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .labeltype-above .preset-address.compact-preset .preset-international,
+  .labeltype-above .preset-address.compact-preset .preset-postalCode {
+    margin-top: 0;
+  }
+}
+
+.labeltype-beside .preset-fullName.compact-preset {
+  overflow: hidden;
+}
+@media (min-width: 750px) {
+  .labeltype-beside .preset-fullName.compact-preset .preset-firstName,
+  .labeltype-beside .preset-address.compact-preset .preset-city {
+    width: 53%;
+    float: left;
+    margin-right: 2%;
+  }
+  .labeltype-beside .preset-fullName.compact-preset .preset-firstName label,
+  .labeltype-beside .preset-address.compact-preset .preset-city label {
+    width: 47%;
+  }
+  .labeltype-beside .preset-fullName.compact-preset .preset-firstName .form-input,
+  .labeltype-beside .preset-address.compact-preset .preset-city .form-input {
+    width: 46%;
+  }
+  .labeltype-beside .preset-fullName.compact-preset .preset-lastName,
+  .labeltype-beside .preset-address.compact-preset .preset-province {
+    float: left;
+    width: 40%;
+  }
+  .labeltype-beside .preset-fullName.compact-preset .preset-lastName label,
+  .labeltype-beside .preset-address.compact-preset .preset-province label {
+    width: 35%;
+  }
+  .labeltype-beside .preset-fullName.compact-preset .preset-lastName .form-input,
+  .labeltype-beside .preset-address.compact-preset .preset-province .form-input {
+    width: 60%;
+  }
+  .labeltype-beside .preset-address.compact-preset .preset-international,
+  .labeltype-beside .preset-address.compact-preset .preset-postalCode {
+    clear: both;
+  }
+  .labeltype-beside .preset-address.compact-preset .preset-international .form-input input {
+    width: 30%;
+  }
+  .labeltype-beside .preset-address.compact-preset .preset-streetAddress {
+    margin-bottom: 0;
+  }
+  .labeltype-beside .preset-address.compact-preset .preset-city,
+  .labeltype-beside .preset-address.compact-preset .preset-province,
+  .labeltype-beside .preset-address.compact-preset .preset-international {
+    margin-top: 0; margin-bottom: 0;
+  }
+  .labeltype-beside .preset-address.compact-preset .preset-postalCode {
+    margin-top: 0;
+  }
+  .labeltype-beside .preset-address.compact-preset .preset-postalCode .form-input input {
+    width: 33.5%;
+  }
+}
+
+
+/*** PAGINATION TITLE ***/
+.redform .title-wrap {
+  font-size: 140%;
+}
+
+/*** PAGINATION PROGRESS BAR ***/
+.redform .page-progress {
+  list-style-type: none;
+  width: auto; height: 50px;
+  margin: 0; padding: 0;
+  position: relative;
+}
+.redform .page-progress-top {
+  top: 20px; left: 68px;
+}
+.redform .page-progress-bottom {
+  top: 28px; left: 68px;
+}
+.redform .progress-step {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 120px;
+  border-bottom: 5px solid #777;
+  margin: 0px -2px;
+  padding: 0px 30px;
+  vertical-align: top;
+  position: relative;
+  opacity: 0.3;
+}
+.redform .progress-step.active,
+.redform .progress-step.complete {
+  opacity: 1.0;
+}
+.redform .progress-step.active {
+  z-index: 10;
+}
+.redform .progress-step:first-child {
+  width: 0px;
+  padding: 0;
+}
+.redform .progress-label {
+  width: 44px;
+  background-color: #888;
+  border-radius: 15px;
+  padding: 7px 10px;
+  color: #FFF;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: -13px; right: 0px;
+}
+.redform .progress-step.active .progress-label {
+  background-color: #444;
+  box-shadow: 0px 0px 0px 2px #FFF, 0px 0px 0px 4px #333;
+}
+.redform .progress-step:first-child .progress-label {
+  right: 0px;
+}
+
+/*** Membership sign-up ***/
+#onSIGNUP.true {
+  display: block;
+}
+
+#onSIGNUP.false {
+  display: none;
+}
+
+
+
+/*** DARKSITE ***/
+.rm-dark-website div.required.legend:before {
+  background-color: #FFF;
+  padding: 0px 5px;
+  border-radius: 15px;
+}
+.rm-dark-website .redform .progress-step {
+  border-bottom: 5px solid #FFF;
+  opacity: 0.5;
+}
+.rm-dark-website .redform .progress-label {
+  background-color: #FFF;
+  color: #000;
+}
+.rm-dark-website .redform .progress-step.active,
+.rm-dark-website .redform .progress-step.complete {
+  opacity: 1.0;
+}
+.rm-dark-website .redform .progress-step.active .progress-label {
+  background-color: #FFF;
+  box-shadow: 0px 0px 0px 2px #999, 0px 0px 0px 4px #FFF;
+}
+
+/*** Confirmation Message ***/
+.pico-content {
+  color: #000;
+}
