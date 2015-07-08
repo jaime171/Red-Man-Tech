@@ -43,7 +43,6 @@ h3{
     background-color: rgba(0,0,0,0) !important;
 }
 
-
 /*  ================
     INPUTS 
     =========
@@ -71,7 +70,6 @@ h3{
 }
 
 .move-left{
-   /* background-color: red !important;*/
     margin-left: 250px !important;
     margin-top: -63px !important;
 }
@@ -95,7 +93,6 @@ div.required.legend:before,
     LABELS 
     =========
 */
-
 
 .type-textInput label{
     background-color: #1a3d63 !important;
@@ -178,7 +175,7 @@ textarea{
     color: white;
     opacity: .5;
     font-style: italic;
-    margin-left: 98px;
+    margin-left: 97.5px;
     margin-top: 2px;
     font-size: 11pt;
 }
@@ -188,11 +185,6 @@ textarea{
     height: 24px;
     margin-left: 100px;
 }
-
-
-
-
-
 
 
 /*  ================
@@ -206,7 +198,6 @@ textarea{
     background-image: none !important;
     background-color: #f99407 !important;
     border: 1px solid #f99407 !important;
-    padding: 1px 15px;
     text-align: center;
     cursor: pointer;
     vertical-align: middle;
@@ -233,9 +224,6 @@ textarea{
 }
 
 
-
-
-
 /*  ================
     MORTAGE NAME
     =========
@@ -248,15 +236,6 @@ textarea{
     line-height: 26px;
     font-family: 'Lato', sans-serif;
 }
-
-
-
-
-
-
-
-
-
 
 
 /*  ================
@@ -283,7 +262,7 @@ textarea{
 
 .info-vip{
     height: 150px;
-    width: 120px;
+    width: 119px;
     margin-top: 45px;
     margin-left: 10px;
     position: absolute;
@@ -311,9 +290,36 @@ textarea{
 }
 
 .vip-plus{
-    margin-top: 22px;
     color: #f99407;
     text-align: center;
-    margin-top: 235px;
+    margin-top: 223px;
     line-height: 20px;
+    width: 304px;
+    height: 71px;
 }
+
+.vip-plus p {
+    padding-top: 13.5px;
+
+}
+
+.vip-plus:hover{
+    background-color: #02264c;
+   
+}
+
+
+
+/*  ================
+    MOZILLA
+    =========
+*/
+
+@-moz-document url-prefix() {
+    
+    .type-textInput label{
+        margin-top: -3px;   
+    }
+}
+
+
