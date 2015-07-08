@@ -233,7 +233,14 @@ textarea{
 }
 
 
-
+.name{
+    color: white;
+    padding-right: 10px;
+    margin-top: -60px;
+    text-align: right;
+    line-height: 26px;
+    font-family: 'Lato', sans-serif;
+}
 
 
 
