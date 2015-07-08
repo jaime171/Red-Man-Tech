@@ -3,12 +3,22 @@
     padding: 0px;
 }
 
+
+h3{
+    color: #22314d;
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    padding-left: 45px;
+    padding-top: 18px;
+    letter-spacing: .5px;
+}
+
+
 .wrapper{
     width: 990px;
     height: 100%;
-    position: absolute;
-    left: 50%;
-    margin-left: -495px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -16,19 +26,10 @@
     background: url(../img/mortage-background.jpg);
     width: 647px;
     height: 337px;
-    margin-top: 80px;
+    top: 80px;
     position: absolute;
-  
 }
 
-.mortage-section>h2{
-    color: #22314d;
-    font-family: 'Lato', sans-serif;
-    font-size: 16pt;
-    padding-left: 45px;
-    padding-top: 18px;
-    letter-spacing: 1px;
-}
 
 .redform{  
     padding: 0px !important; 
@@ -87,6 +88,7 @@
 div.required.legend:before,
 .redform .required label:after{
     color: white !important;
+    float: right;
 } 
 
 /*  ================
@@ -100,7 +102,7 @@ div.required.legend:before,
     padding: 5px;
     color: white;
     width: 80px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 10pt;
     text-align: center;
 }
@@ -137,7 +139,7 @@ div.required.legend:before,
 
 .checkbox p{
     color: #1a3d63 !important;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 8pt !important; 
 }
 
@@ -146,7 +148,6 @@ div.required.legend:before,
 }
 
 textarea{
-    font-family: 'Lato', sans-serif;
     padding-left: 5px !important;
     padding-top: 5px !important;
 }
@@ -176,7 +177,6 @@ textarea{
 .input-captcha p{
     color: white;
     opacity: .5;
-    font-family: 'Lato', sans-serif;
     font-style: italic;
     margin-left: 98px;
     margin-top: 2px;
@@ -233,6 +233,13 @@ textarea{
 }
 
 
+
+
+
+/*  ================
+    MORTAGE NAME
+    =========
+*/
 .name{
     color: white;
     padding-right: 10px;
@@ -258,10 +265,55 @@ textarea{
 */
 
 .vip-section{
-    background: blue;
+    background: url(../img/vip-background.png);
     height: 337px;
-    width: 308px;
-    right: 10px;
-    margin-top: 80px;
+    top: 80px;
+    left: 675px;
+    width: 315px;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.vip-section h3{
+    line-height: 25px;
+    vertical-align: middle;
+    padding-left: 20px !important;
+}
+
+
+.info-vip{
+    height: 150px;
+    width: 120px;
+    margin-top: 45px;
+    margin-left: 10px;
     position: absolute;
+    font-size: 10pt;
+    line-height: 27px;
+}
+
+.join-now-vip{
+    height: 85px;
+    width: 85px;
+    background-color: #f99407;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 150px;
+    color: white;
+    font-size: 11pt;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.join-now-vip p{
+    margin-top: 23px;
+}
+
+.vip-plus{
+    margin-top: 22px;
+    color: #f99407;
+    text-align: center;
+    margin-top: 235px;
+    line-height: 20px;
 }
