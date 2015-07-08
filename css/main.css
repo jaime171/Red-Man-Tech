@@ -41,6 +41,7 @@ h3{
     padding: 0px !important;
     border: none !important;
     background-color: rgba(0,0,0,0) !important;
+    background:transparent !important;
 }
 
 /*  ================
@@ -52,8 +53,8 @@ h3{
 .redform .add-on,
 .redform textarea,
 .redform button {
-  border-radius: 0px !important;
-  border: none !important;
+    border-radius: 0px !important;
+    border: none !important;
 }
 
 
